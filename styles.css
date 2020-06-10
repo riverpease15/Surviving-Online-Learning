@@ -1,0 +1,329 @@
+/* CSS Document */
+
+
+/* Green Header Format */
+
+header {
+    background-color: #c5d86d;
+    padding-top: 2em;
+    margin: -1em;
+    height: 6em;
+    width: 101%;
+    position: fixed;
+    z-index: 3;
+}
+
+
+/* Navigation Bar Format */
+
+.navbarItem {
+    display: inline;
+    padding-right: 2em;
+}
+
+.navbarItem a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#active a {
+    color: #2e294e;
+}
+
+.navbarItem a:hover {
+    color: #1b998b;
+}
+
+.nav {
+    padding-right: 3em;
+    padding-top: 1em;
+    text-align: right;
+}
+
+.logo {
+    width: 10em;
+    padding: 0em;
+    margin: 0em;
+    position: relative;
+        left: -1em;
+        top: -8.5em;
+}
+
+/* Home Title */
+
+.hometitle {
+    background-image: url("img/Looping-Video.gif");
+    background-repeat: no-repeat;
+    background-size: 104em 45em;
+    background-position: relative;
+    padding-top: 40em;
+    margin: -1em;
+    width: 104em;
+    height: 0em;
+    background-attachment: fixed;
+}
+
+.homewords {
+    width: 50em;
+    margin: 0em;
+    padding: 0em;
+    position: relative;
+        top: -40em;
+        left: 27em;
+}
+
+/* Home Intro */
+
+.introback {
+    height: 20em;
+    width: 102.4%;
+    margin: -1em;
+}
+
+.introwords {
+    color: white;
+    width: 30em;
+    font-size: 1.5em;
+    text-align: center;
+    position: absolute;
+        left: 20em;
+        top: 28em;
+}
+
+/* Stay Safe Message */
+
+.staysafetext {
+    color: #2e294e;
+    font-size: 1em;
+    margin: 0.62em;
+    background-color: #c5d86d;
+    text-align: justify;
+    width: 40em;
+    padding: 3em;
+    padding-right: 12em;
+    position: absolute;
+        left: 48em;
+}
+
+.safetitle {
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+}
+
+.staysafeleft {
+    margin: -1em;
+    background-color: #2e294e;
+    width: 52%;
+    height: 32.35em;
+}
+
+.staysafepic {
+    width: 25em;
+    position: relative;
+        left: 25em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #e71d36;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+        left: 0em;
+    width: 100.7%;
+    height: 5em;
+}
+
+.closing {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding-top: 0.8em;
+}
+
+
+/* Keep it light title */
+
+.keeptitle {
+    background-color: #2e294e;
+    padding-top: 40em;
+    margin: -1em;
+    width: 104em;
+    height: 0em;
+}
+
+.keepwords {
+    width: 50em;
+    margin: 0em;
+    padding: 0em;
+    position: relative;
+        top: -39em;
+        left: 27em;
+}
+
+/* Book Recommendations */
+
+.booktitle {
+    font-size: 2em;
+    text-align: center;
+    color: #c5d86d;
+    margin-bottom: -0.5em;
+    padding-top: 1em;
+}
+
+.booksubtitle {
+    font-size: 1em;
+    text-align: center;
+    color: #2e294e;
+    padding-top: 0em;
+}
+
+.bookrec {
+    margin: -1em;
+    background-image: url("img/AD875937-D828-4E1F-8FF9-60D38D66B7D4.JPEG");
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 100%;
+    margin-top: -2em;
+    background-attachment: fixed;
+}
+
+.bookcovers {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.bookcovers img {
+    display: inline-block;
+    width: 10em;
+    height: 14em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.bookcovers img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Main Quiz */
+
+.quiztitle {
+  color: #2e294e;
+}
+
+.quiztitle:hover {
+  transform: scale(1.2);
+}
+
+.wholequiz{
+  margin-left: -1em;
+  margin-right: -1em;
+  background-color: #1b998b;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
+  font-size: 1.5em;
+}
+
+.question{
+	font-weight: 600;
+  color: white;
+  margin-bottom: 1em;
+}
+.answers {
+  margin-bottom: 2em;
+}
+
+label {
+    padding:0.5em;
+    font-size: 1em;
+    margin: 1em;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 1.5em;
+}
+
+label:hover {
+  background-color: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+#submit{
+	font-size: 20px;
+	background-color: #2e294e;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#submit:hover{
+	background-color: rgba(46, 41, 78, 0.5);
+}
+
+/* Learn From Home Page */
+
+.learntitle {
+    background-color: #f46036;
+    padding-top: 38em;
+    margin: -1em;
+    width: 104em;
+    height: 0em;
+}
+
+/* Tips */
+
+.learntips {
+    margin: -1em;
+    background-image: url("img/navyteal-grad.PNG");
+    background-size: 104em 125em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tipstitle {
+    margin: 0em;
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tipnum {
+    color: white;
+    text-align: center;
+    font-size: 2.8em;
+    margin: 0em;
+    padding: 0.5em;
+}
+
+.tipnum:hover {
+    transform: scale(1.2);
+}
+
+.tip {
+    margin: 0em;
+    padding-bottom: 2em;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.tip a {
+    color: white;
+}
+
+/* Quiz */
+
+.empty {
+    width: 50em;
+    height: 10em;
+}
