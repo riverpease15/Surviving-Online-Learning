@@ -103,7 +103,7 @@ header {
     padding: 3em;
     padding-right: 12em;
     position: absolute;
-        left: 48em;
+        left: 50em;
 }
 
 .safetitle {
@@ -114,7 +114,7 @@ header {
 .staysafeleft {
     margin: -1em;
     background-color: #2e294e;
-    width: 52%;
+    width: 50%;
     height: 32.35em;
 }
 
